@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad en Línea</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #9090f5; /* Color de fondo tecnológico */
+            color: #111010; /* Color del texto en el fondo oscuro */
+            position: relative; /* Para posicionar las imágenes */
+            min-height: 50vh; /* Establece el tamaño mínimo de la ventana gráfica */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            background-color: #424242; /* Color entre gris y negro */
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .menu {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            margin-left: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #555555;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #777777;
+        }
+
+        main {
+            flex-grow: 1; /* Expande el contenido principal para llenar el espacio restante */
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1px;
+            background-color: #333333;
+        }
+
+        .image-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 1px; /* Ajusta este valor según sea necesario para bajar las imágenes */
+        }
+
+        .image-container img {
+            width: 300px; /* Ajusta el tamaño de las imágenes */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Contraseñas y Autenticación</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="password.html">Fortaleza de Contraseñas</a></li>
+                <li><a href="3_.html">Autenticación</a></li>
+                <li><a href="2_seguido.html">Gestión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenidos a nuestro sitio de ciberseguridad </h1>
+    <p> magina que tienes una caja fuerte donde guardas tus objetos más valiosos: tu dinero, joyas, documentos importantes, ¿verdad? Bueno, en el mundo digital, tus contraseñas son como las combinaciones de esa caja fuerte. Son códigos secretos que te permiten acceder a tus cosas privadas en línea, ya sea tu correo electrónico, redes sociales, o tu cuenta bancaria.</p>
+    <p> Ahora, imagina que además de la combinación, necesitas mostrar una prueba de que realmente eres tú quien intenta abrir la caja fuerte. Eso es básicamente lo que hace la autenticación. Es como mostrar tu identificación antes de entrar a un lugar especial. En el mundo en línea, puede ser un código enviado a tu teléfono, tu huella dactilar o incluso una foto de tu cara.</p>
+    
+    </p><p>¿Por qué son importantes estas cosas? Bueno, imagina si alguien más pudiera abrir tu caja fuerte digital y hacer lo que quiera con tus cosas. Podrían enviar mensajes desde tu cuenta, robar tu dinero, o incluso hacerse pasar por ti. Por eso, tener contraseñas fuertes y métodos de autenticación seguros es crucial. Son como los guardianes de tu mundo digital, protegiendo tus secretos y tu privacidad.</p>
+</main>
+<div class="image-container">
+    <img src="images/inicio_.jpg" alt="Imagen 1">
+    <img src="images/inicio_2.jpg" alt="Imagen 2">
+</div>
+<footer>
+    <p>&copy; 2024 Seguridad en Línea</p>
+    <p>&copy; por Otoniel Garcia Romero</p>
+</footer>
+</body>
+</html>
+
+
